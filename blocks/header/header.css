@@ -1,7 +1,6 @@
 .header {
   display: flex;
   flex-direction: row;
-  box-sizing: border-box;
   width: 1184px;
   min-height: 52px;
   align-items: center;
