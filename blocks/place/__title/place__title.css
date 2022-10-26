@@ -11,7 +11,7 @@
   grid-row: 1;
 }
 
-@media screen and (maw-width: 1152px) {
+@media screen and (max-width: 1152px) {
   .place__title {
     padding-right: 32px;
     width: 440px;
