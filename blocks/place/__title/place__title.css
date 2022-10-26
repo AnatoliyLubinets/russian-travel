@@ -10,3 +10,32 @@
   grid-column: 1;
   grid-row: 1;
 }
+
+@media screen and (maw-width: 1152px) {
+  .place__title {
+    padding-right: 32px;
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .place__title {
+    padding-right: 28px;
+    width: 340px;
+    min-height: auto;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+
+@media screen and (max-width: 554px) {
+  .place__title {
+    padding-bottom: 32px;
+    padding-right: 0px;
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-left: 16px;
+  }
+}

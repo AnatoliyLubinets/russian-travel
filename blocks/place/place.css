@@ -1,7 +1,36 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 100%;
-  min-height: 660px;
+  width: 984px;
+  min-height: 584px;
   margin-bottom: 80px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1152px) {
+  .place {
+    width: 928px;
+    min-height: 584px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .place {
+    width: 720px;
+    min-height: auto;
+    margin-bottom: 73px;
+  }
+}
+
+
+@media screen and (max-width: 554px) {
+  .place {
+    width: 320px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -8,6 +8,26 @@
   letter-spacing: 2px;
   padding-bottom: 12px;
   color: #AAAAAA;
-  grid-column: 2;
-  grid-row: 1;
+}
+
+@media screen and (max-width: 1152px) {
+  .place__url-heading {
+    line-height: 12px;
+  }
+}
+
+
+@media screen and (max-width: 896px) {
+  .place__url-heading {
+    width: 352px;
+    line-height: 12px;
+  }
+}
+
+
+@media screen and (max-width: 554px) {
+  .place__url-heading {
+    width: 288px;
+    line-height: 12px;
+  }
 }

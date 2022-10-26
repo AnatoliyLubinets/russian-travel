@@ -5,3 +5,29 @@
   grid-column-start: 1;
   padding-right: 40px;
 }
+
+@media screen and (maw-width: 1152px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+    padding-right: 28px;
+  }
+}
+
+
+@media screen and (max-width: 554px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+    padding-right: 0px;
+    padding-bottom: 32px;
+  }
+}
