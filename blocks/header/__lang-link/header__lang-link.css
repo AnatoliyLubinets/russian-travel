@@ -17,7 +17,7 @@
  text-decoration: underline;
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 761px) {
   .header__lang-link {
     width: 22px;
     height: 20px;

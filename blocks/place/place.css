@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 984px;
-  min-height: 584px;
   margin-bottom: 80px;
 }
 
@@ -13,20 +12,18 @@
 @media screen and (max-width: 1200px) {
   .place {
     width: 928px;
-    min-height: 584px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .place {
     width: 720px;
-    min-height: auto;
     margin-bottom: 73px;
   }
 }
 
 
-@media screen and (max-width: 554px) {
+@media screen and (max-width: 761px) {
   .place {
     width: 320px;
     margin-bottom: 50px;

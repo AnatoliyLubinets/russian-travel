@@ -1,6 +1,5 @@
 .place__website {
   width: 456px;
-  height: 46px;
   grid-column: 2;
   grid-row: 1;
   margin-top: auto;
@@ -15,7 +14,7 @@
 }
 
 
-@media screen and (max-width: 554px) {
+@media screen and (max-width: 761px) {
   .place__website {
     width: 288px;
     margin-bottom: 32px;
