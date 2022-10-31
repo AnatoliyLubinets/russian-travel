@@ -1,5 +1,4 @@
 .footer__copyright {
-  margin:0 0 0 auto;
   max-width: 100%;
   font-weight: 400;
   font-size: 14px;
@@ -7,6 +6,8 @@
   text-align: right;
   justify-self: flex-end;
   align-self: flex-end;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 761px) {
