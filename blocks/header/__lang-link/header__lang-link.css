@@ -1,25 +1,25 @@
 .header__lang-link {
-  width: 30px;
-  height: 28px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
   text-decoration: none;
-}
-
-.header__lang-link:first-child {
   padding-right: 18px;
+  transition: 0,5s;
 }
 
-.header__lang-link:focus {
- text-decoration: underline;
+.header__lang-link:last-child {
+  padding-right: 0;
+}
+
+.header__lang-link:hover {
+  opacity: 0.3;
 }
 
 @media screen and (max-width: 761px) {
   .header__lang-link {
-    width: 22px;
-    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
